@@ -117,9 +117,7 @@
           <Property Name="ProductID" Type="int" Nullable="false" />
           <Property Name="DateCreated" Type="datetime" Nullable="false" />
         </EntityType>
-        <!--Errors Found During Generation:
-      warning 6002: The table/view 'C:\USERS\JOE STAGNER\DESKTOP\TAILSPINSPYWORKS\TAILSPINSPYWORKS\APP_DATA\COMMERCE.MDF.dbo.VewOrderDetails' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
-      -->
+        
         <EntityType Name="VewOrderDetails">
           <Key>
             <PropertyRef Name="ProductID" />
@@ -131,9 +129,7 @@
           <Property Name="UnitCost" Type="money" />
           <Property Name="OrderID" Type="int" />
         </EntityType>
-        <!--Errors Found During Generation:
-      warning 6002: The table/view 'C:\USERS\JOE STAGNER\DESKTOP\TAILSPINSPYWORKS\TAILSPINSPYWORKS\APP_DATA\COMMERCE.MDF.dbo.ViewAlsoPurchased' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
-      -->
+        
         <EntityType Name="ViewAlsoPurchased">
           <Key>
             <PropertyRef Name="Products_ProductID" />
@@ -144,9 +140,7 @@
           <Property Name="OrderID" Type="int" />
           <Property Name="Products_ProductID" Type="int" Nullable="false" />
         </EntityType>
-        <!--Errors Found During Generation:
-      warning 6002: The table/view 'C:\USERS\JOE STAGNER\DESKTOP\TAILSPINSPYWORKS\TAILSPINSPYWORKS\APP_DATA\COMMERCE.MDF.dbo.ViewCart' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
-      -->
+        
         <EntityType Name="ViewCart">
           <Key>
             <PropertyRef Name="ProductID" />

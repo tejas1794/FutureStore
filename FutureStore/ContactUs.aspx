@@ -37,7 +37,7 @@
         <tr>
             <td style=" vertical-align: top; text-align: right;">&nbsp;</td>
             <td>
-                <asp:ImageButton ID="ImageButton_Submit" runat="server" ImageUrl="~/Styles/Images/submit.gif" onclick="ImageButton_Submit_Click" />   
+                <asp:ImageButton ID="ImageButton_Submit" runat="server" ImageUrl="~/Styles/Images/submit.png" onclick="ImageButton_Submit_Click" />   
             </td>
         </tr>
     </table>

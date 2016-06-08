@@ -22,7 +22,7 @@ namespace FutureStore
 
     public partial class MyShoppingCart
     {
-        public const string CartId = "TailSpinSpyWorks_CartID";
+        public const string CartId = "FutureStore_CartID";
 
         //------------------------------------------------------------------------------------------------------------------------------------------+
         public String GetShoppingCartId()

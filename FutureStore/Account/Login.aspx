@@ -4,11 +4,12 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-<div class="ContentHead">Log in to your account</div>
+<div class="ContentHead" style="text-align:center">Log in to your account</div>
 <br />
     <p>
-        Please enter your username and password.
+        Please enter your username and password below.
     </p>
+    <div style="text-align: center; width:300px; margin-left: auto; margin-right: 350px">
     <asp:Login ID="LoginUser" runat="server" EnableViewState="false" RenderOuterTable="false" onloggedin="LoginUser_LoggedIn">
         <LayoutTemplate>
             <span class="failureNotification">
@@ -41,11 +42,12 @@
                 </p>
                 </fieldset>
                 <p style="padding: 20px;">
-                 If you are a new user and you don't have an account, then register for one now.  <br /><br />
+                 New User? Register here for a new account!  <br /><br />
                  <asp:ImageButton ID="RegisterHyperLink" runat="server" EnableViewState="false" 
                         ImageUrl="../Styles/Images/register.gif" PostBackUrl="~/Account/Register.aspx"></asp:ImageButton>
                 </p>
             </div>
         </LayoutTemplate>
     </asp:Login>
+        </div>
 </asp:Content>

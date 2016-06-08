@@ -50,7 +50,7 @@
                           EnableUpdate="True" EntitySetName="ViewCarts" 
                           AutoGenerateWhereClause="True" EntityTypeFilter="" Select="" Where="">
         <WhereParameters>
-            <asp:SessionParameter Name="CartID" DefaultValue="0" SessionField="TailSpinSpyWorks_CartID" />
+            <asp:SessionParameter Name="CartID" DefaultValue="0" SessionField="FutureStore_CartID" />
         </WhereParameters>
     </asp:EntityDataSource>
 </asp:Content>
